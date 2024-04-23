@@ -1,0 +1,31 @@
+#searchBar{
+    justify-content: center;
+    padding: 30px 10px;
+    background-color: #FFC72C;
+}
+
+#searchBar button{  
+    width: 128px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    height: 45px;
+    color: white;
+    background-color: #1D3794;
+}
+
+#searchBar input{  
+    width: 240px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    height: 45px;
+}
+
+@media (min-width: 820px) {
+    #searchBar{display: flex;}
+
+    
+}

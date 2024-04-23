@@ -1,0 +1,11 @@
+.header {
+    width: 100%;
+    display: flex;
+    background-color: #1d3794;
+
+}
+
+.header .wrapper {
+    display: flex;
+    padding: 10px 30px;
+}

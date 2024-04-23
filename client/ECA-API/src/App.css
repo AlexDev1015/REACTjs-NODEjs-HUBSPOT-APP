@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    width: 1920px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.paginationWrapper{justify-content: center;}
+.paginationWrapper img {
+    width: 30px;
+}
+
+.arrow{cursor: pointer;}
+
+
+
+@media(min-width:980px) {
+
+    .paginationWrapper{display: flex; width: 300px; margin: 0 auto;}
+}
+
+
+
+.slick-slider .slick-arrow {
+    display: none !important;
+}
